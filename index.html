@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo et Saison</title>
+    <link rel="stylesheet" href="styles.css">
+    <script  src = "https://unpkg.com/@futuravision/futura.js/dist/futurajs.min.js"> </script>    
+
+</head>
+<body>
+
+
+    <div id="papa">
+        <div id="weather-container" >
+            <h1>Météo et Saison</h1>
+            <input type="text" id="country-input" placeholder="Entrez le pays...">
+            <button onclick="fetchWeatherData()">Obtenir la météo</button>
+        
+            <div id="weather-info">
+                <p id="loca" data-fv-anim = 'autowrite'  data-fv-data = "Météo de votre selection !"></p>
+                <p id="locali"> <img id="wd" src="C:\Users\ozova\Desktop\APP1\world-creativity-and-innovation-day.gif" alt="pays"> <span id="location"> </span> </p>
+                <div id="maison">
+                    <p id="temperature"> <img id="tp" src="C:\Users\ozova\Desktop\APP1\celsius.gif" alt="Température" > <span id="temp"></span> </p>
+                    <p id="season"> <img id="ss" src="C:\Users\ozova\Desktop\APP1\weather.gif" alt="Saison"> <span id="seas"></span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

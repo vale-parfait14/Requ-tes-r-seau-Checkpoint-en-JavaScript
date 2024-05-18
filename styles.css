@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+    
+}
+#papa{
+    
+    position: relative;
+    display: flex;
+    left: 400px;
+}
+
+@media screen and (max-width : 1315px) {
+    #papa{
+        left: 200px;
+    }
+}
+@media screen and (max-width : 1109px) {
+    #papa{
+        left: 10px;
+        width: 200px;
+    }
+}
+
+#weather-container {
+    
+    
+    background-color: white;
+    
+    border-radius: 100px;
+    text-align: center;
+    align-content: center;
+    width: 800px;
+  overflow: hidden;
+
+   
+    
+
+}
+button{
+    height: 50px;
+    border-radius: 100px;
+    border: rgb(0, 247, 255);
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#country-input {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    border: 1px solid rgb(0, 247, 255);
+}
+
+#location, #loca{
+    font-size: 50px;
+    
+}
+
+#maison{
+    display: flex;
+    justify-content:space-evenly;
+}
+#weather-info {
+    margin-top: 5px;
+}
+
+#temperature, #season {
+    font-size: 30px;
+}
+
+#wd, #tp, #ss{
+    width: 70px;
+}
